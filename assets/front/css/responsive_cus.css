@@ -1,0 +1,1642 @@
+@media(max-width:767px) {
+    #register .login-inner-sub {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #register .login-inner-sub .logo {
+        width: 90%;
+    }
+
+    .infoarea {
+        width: 100%;
+    }
+
+    .infoarea li a img {
+        width: 60%;
+        height: auto;
+    }
+
+    .infoarea li:before {
+        width: 32%;
+        left: 84%;
+        top: 33%;
+    }
+
+    .projectname {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .plus-icon span {
+        margin-left: 0;
+    }
+
+    .fees {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .or {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .or span {
+        margin-left: 0;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .or label {
+        display: none;
+    }
+
+    .or .form-group {
+        margin-top: 10px;
+    }
+
+    .projectinput-total {
+        width: 85%;
+    }
+
+    .plus-icon {
+        width: 15%;
+        padding-left: 10px;
+    }
+
+    .projectname2 {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .r-con-area .btn {
+        min-width: 100%;
+    }
+
+    .r-con-area .btn {
+        width: 100%;
+    }
+
+    #login {
+        width: 100%;
+        float: left;
+        position: relative;
+        overflow: inherit;
+        height: inherit;
+    }
+
+    .login-inner-sub {
+        max-width: 100%;
+        text-align: center;
+        float: left;
+        position: relative;
+        background: #fff;
+        border: 1px solid #cfcfcf;
+        box-shadow: 0px 0px 35px #00000054;
+        border-radius: 25px;
+        padding: 30px 17px;
+        left: 0;
+        top: 0;
+        -webkit-transform: translate(-50%, -50%);
+        transform: inherit;
+        /* padding-bottom: 0; */
+        margin: 20px 0 0 0;
+    }
+
+    .login-inner-sub img {
+        width: 100%;
+    }
+
+    .login-social li a img {
+        width: auto;
+    }
+
+    .inputarea {
+        width: 66%;
+        float: left;
+    }
+
+    .select-area {
+        width: 30%;
+        float: left;
+        margin-right: 4%;
+    }
+
+    .register-professional-main-inner2 {
+        padding: 30px 22px;
+    }
+
+    .login-inner-sub .form-group span img {
+        width: auto;
+    }
+
+    .registerpage {
+        padding: 27px 22px !important;
+    }
+
+    /**************************HOME***************************************/
+    .container-fluid {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .top-right-text ul li {
+        font-size: 10px;
+    }
+
+    #top-nav {
+        padding: 5px 0;
+    }
+
+    .social ul {
+        text-align: center;
+    }
+
+    .top-right-text ul {
+        text-align: center;
+    }
+
+    .categorie-search .input-btn-area input {
+        width: 100%;
+    }
+
+    .categorie-search .form-group select {
+        width: 50%;
+    }
+
+    #header-middle {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .categorie-search .input-btn-area {
+        width: 50%;
+    }
+
+    .banner-caption {
+        max-width: 100%;
+        text-align: left;
+        float: left;
+        position: relative;
+        border-radius: 25px;
+        padding: 0;
+        left: 0;
+        top: 15px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: inherit;
+        /* padding-bottom: 0; */
+    }
+
+    .navbar-toggler {
+        background: #19222e;
+    }
+
+    .fa-bars {
+        color: #fff;
+    }
+
+    .header-middle-icon ul {
+        text-align: center;
+        float: none;
+    }
+
+    .header-middle-icon ul li {
+        text-align: center;
+        float: none;
+    }
+
+    .header-middle-icon ul li .signin-btn {
+        font-size: 13px;
+        padding: 7px 12px;
+        float: left;
+        margin-top: 12px;
+    }
+
+    .header-middle-icon ul li img {
+        padding-right: 18px;
+        height: 19px;
+        margin-top: -28px;
+        padding-top: 0;
+    }
+
+    #navarea .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 0;
+        background: #ffffff96;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-bottom: 10px;
+    }
+
+    #navarea {
+        padding: 10px 0;
+    }
+
+    .logoareaindex img {
+        margin-bottom: 10px;
+    }
+
+    .banner-caption h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #1df2b5;
+    }
+
+    .banner-caption p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+
+    .banner-caption .form-group {
+        width: 100%;
+    }
+
+    #why-choose {
+        padding-top: 30px;
+    }
+
+    .why-choose-left h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .why-choose-left ul li span {
+        float: left;
+        width: 25%;
+    }
+
+    .why-choose-left ul li div {
+        margin-left: 0;
+        float: left;
+        width: 75%;
+    }
+
+    .why-choose-left ul li div p {
+        margin: 0;
+    }
+
+    .why-choose-left ul li div h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .why-choose-right {
+        padding: 20px;
+    }
+
+    .why-choose-right img {
+        margin-bottom: 20px;
+        width: 20%;
+    }
+
+    .why-choose-right h2 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .why-choose-right p {
+        font-size: 15px;
+    }
+
+    #why-choose .total {
+        padding-bottom: 30px;
+    }
+
+    .service-near-you-inner ul li {
+        width: 50%;
+    }
+
+    .main-heading p {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-near-you-inner ul li a {
+        height: auto;
+        line-height: 23px;
+        padding: 10px;
+    }
+
+    #stores {
+        margin: 30px 0;
+    }
+
+    .main-heading2 {
+        margin-bottom: 20px;
+    }
+
+    .slick-slider {
+        margin: 0;
+    }
+
+    #daily-deals {
+        padding: 30px 0;
+    }
+
+    .main-heading h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+
+    #service-near-you {
+        padding-top: 30px;
+    }
+
+    .main-heading2 h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .slick-list {
+        margin-bottom: 30px !important;
+    }
+
+    #daily-deals .slick-list {
+        margin-bottom: 30px !important;
+    }
+
+    .img-over-text {
+        top: 6px;
+        width: 70%;
+        padding: 0 15px;
+    }
+
+    .img-over-text h2 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+
+    .join-now-btn {
+        cursor: pointer;
+        height: auto;
+        border: none;
+        font-size: 13px;
+        background: #19222e;
+        color: #fff;
+        padding: 8px 10px;
+        width: auto;
+        line-height: 12px;
+        transition-duration: 0.8s;
+        font-family: 'Axiforma';
+    }
+
+    #join-now {
+        margin-bottom: 30px;
+    }
+
+    #demologo {
+        margin-bottom: 30px;
+    }
+
+    .subscribe-left h4 {
+        float: left;
+        width: 75%;
+        font-size: 16px;
+        color: #19222e;
+        margin: 0;
+        margin-top: 0;
+        line-height: 23px;
+        margin-left: 5%;
+        padding-right: 15px;
+    }
+
+    .subscribe-left img {
+        margin-right: 0;
+        float: left;
+        vertical-align: middle;
+        width: 20%;
+    }
+
+    .subscribe-right {
+        margin-top: 15px;
+    }
+
+    .subscribe-right .subscribe-btn {
+        font-size: 15px;
+        padding: 13px;
+        width: auto;
+    }
+
+    #footer .social ul {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    #footer {
+        padding: 30px 0 19px 0;
+    }
+
+    .footer-st {
+        margin-bottom: 20px;
+    }
+
+    .doenlodeapp {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .footer-inner h3 {
+        margin-bottom: 15px;
+        line-height: 16px;
+    }
+
+    .footer-nd {
+        padding-bottom: 10px;
+    }
+
+    .copy-inner p {
+        margin: 10px 0;
+        line-height: 21px;
+    }
+
+    .pay img {
+        float: left;
+    }
+
+    #subscribe {
+        padding: 30px 0;
+    }
+
+    .img-over-text2 {
+        padding: 25px 0 35px 0;
+    }
+
+    .categorie-search .input-btn-area button {
+        position: absolute;
+        right: 6px;
+        background: white;
+        border: none;
+        top: 2px;
+        padding: 10px;
+        height: 41px;
+        border-radius: 50px;
+    }
+
+    .add-plumber .col-lg-1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .add-plumber .col-lg-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .add-plumber .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hire-plumber-btn {
+        float: none;
+        margin-top: 15px;
+    }
+
+    .mt66 {
+        margin-top: 30px;
+    }
+
+    .lodemoreplumbers {
+        margin-top: 20px;
+    }
+
+    #plumber-join-now .plumber-join-now-inner {
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    #plumber-join-now .plumber-join-now-inner h3 {
+        line-height: 25px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #plumber-join-now .join-now-btn {
+        float: left;
+    }
+
+    #main #faq .card .card-header .btn-header-link {
+        padding: 15px;
+        font-size: 15px;
+        padding-right: 15px;
+        float: left;
+        margin: 0;
+    }
+
+    #main #faq .card .card-header .btn-header-link span {
+        float: left;
+        width: 88%;
+    }
+
+    #main #faq .card .card-header .btn-header-link.collapsed {
+        font-size: 15px;
+    }
+
+    .card-body {
+        padding: 15px;
+        padding-right: 15px;
+        padding-top: 0;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .add-plumber .col-lg-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .user-img {
+        width: 35%;
+        float: left;
+    }
+
+    .user-review {
+        width: 65%;
+        float: left;
+    }
+
+    .submit-btn {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    #chatarea {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-bottom: 15px;
+    }
+
+    .offset-6 {
+        margin-left: 0;
+    }
+
+    .navegacion ul {
+        width: 80% !important;
+    }
+
+    .navegacion .menu a {
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .navegacion .submenu {
+        width: 100% !important;
+    }
+
+    #banner-area {
+        padding: 50px 0;
+    }
+
+    #navarea .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 7px;
+        background: #ffffff82;
+    }
+
+    .offset-7 {
+        margin-left: 0;
+    }
+
+    #plumbing-banner {
+        padding: 50px 0;
+    }
+
+    .atab {
+        font-size: 13px !important;
+    }
+
+    .navegacion .menu a {
+        font-size: 14px !important;
+    }
+
+    .navegacion .menu .item-submenu > a::after {
+        margin-top: 4px;
+    }
+
+    .supplier-item {
+        margin-bottom: 20px;
+    }
+
+    #add {
+        margin-bottom: 30px;
+    }
+
+    .suppliercarousel {
+        margin: 30px 0 !important;
+    }
+
+    #page-product {
+        padding-bottom: 30px;
+    }
+
+    #plumbing-booking .query-btn {
+        width: 100%;
+    }
+
+    .plumberright .sec1 .sec1innwe .imgarea {
+        float: left;
+        width: 30%;
+    }
+
+    .plumberright .sec1 .textarea {
+        width: 70%;
+        float: left;
+    }
+
+    .plumberright .sec2 ul li {
+        font-size: 12px;
+    }
+
+    .plumberright .sec2 .total p {
+        font-size: 15px;
+        padding: 13px;
+        line-height: 16px;
+    }
+
+    .plumberright {
+        margin-top: 10px;
+    }
+
+    #product-details .pr95 {
+        padding-right: 0;
+    }
+
+    #product-details .pro-content-inner1 h4 {
+        font-size: 17px;
+    }
+
+    #product-details .pro-btn {
+        margin-bottom: 30px;
+    }
+
+    #product-details .pro-wish-btn {
+        margin-top: 0;
+    }
+
+    #product-details .item-details li i {
+        margin-right: 11px;
+    }
+
+    #product-details .item-details li span {
+        width: 93%;
+    }
+
+    #product-details .pro-content3 {
+        padding-bottom: 0 !important;
+    }
+
+    /** product-list start**/
+    #product-list .product-list-rightinner .sort-by span {
+        padding-right: 4px;
+    }
+
+    #product-list .product-list-rightinner .sort-by select {
+        font-size: 11px;
+        line-height: 14px;
+        width: 163px;
+
+    }
+
+    #product-list .product-view {
+        margin-left: 161px;
+    }
+
+    #product-list .product-list-rightinner {
+        margin-top: 25px;
+    }
+
+    #product-list .product-box {
+        margin-bottom: 30px;
+    }
+
+    #product-list .related-pro-sec .item-text h3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #product-list .related-pro-sec .item-text p {
+        font-size: 9px;
+        line-height: 11px;
+
+    }
+
+    #product-list .related-pro-sec .item-text span {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    #product-list .product-content-box-listview {
+        padding-top: 19px;
+    }
+
+    /** product-list end**/
+
+    .navegacion ul {
+        overflow-x: auto;
+    }
+
+    .upload-pic-right-inner-3 .slick-dots {
+        margin: 0 11px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .register-professional-main-inner2 .form-group label {
+        font-size: 12px;
+    }
+
+    .register-professional-main-inner2 .form-group .form-control {
+        font-size: 12px;
+    }
+
+    .ui.default.dropdown:not(.button) > .text,
+    .ui.dropdown:not(.button) > .default.text {
+        font-size: 12px;
+    }
+
+    .or span {
+        margin-left: 12px;
+        margin-top: 6px;
+    }
+
+    .infoarea li:before {
+        width: 52%;
+        left: 74%;
+    }
+
+    .inputarea {
+        width: 66%;
+        float: left;
+    }
+
+    .select-area {
+        width: 30%;
+        float: left;
+        margin-right: 4%;
+    }
+
+    /*********************************HOME***********************************/
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .logoareaindex img {
+        width: 100%;
+    }
+
+    .categorie-search .form-group select {
+        width: 40%;
+        padding-left: 12px;
+    }
+
+    .categorie-search .input-btn-area {
+        width: 60%;
+    }
+
+    .categorie-search .input-btn-area input {
+        width: 100%;
+    }
+
+    .categorie-search .input-btn-area button {
+        position: absolute;
+        right: 6px;
+        background: white;
+        border: none;
+        top: 2px;
+        padding: 10px;
+        height: 41px;
+        border-radius: 50px;
+    }
+
+    .header-middle-icon ul li img {
+        padding-right: 16px;
+        padding-top: 0;
+        float: left;
+        height: 14px;
+        margin-top: 15px;
+    }
+
+    .header-middle-icon ul li .signin-btn {
+        font-size: 13px;
+        padding: 5px 8px;
+        margin-top: 0px;
+        width: auto;
+    }
+
+    #top-nav {
+        padding: 10px 0;
+    }
+
+    #header-middle {
+        padding: 10px 0;
+    }
+
+    .banner-caption h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .banner-caption p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .banner-caption .form-group {
+        padding: 15px;
+    }
+
+    .why-choose-left ul li div {
+        margin-left: 0;
+        float: left;
+        width: 80%;
+    }
+
+    .why-choose-left ul li span {
+        float: left;
+        width: 20%;
+    }
+
+    .why-choose-left h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .why-choose-right h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .why-choose-right img {
+        margin-bottom: 20px;
+        height: 80px;
+    }
+
+    .why-choose-right p {
+        font-size: 18px;
+    }
+
+    .service-near-you-inner ul li a {
+        font-size: 15px;
+        height: auto;
+        line-height: 23px;
+        padding: 5px 15px;
+    }
+
+    .slick-slider {
+        margin: 0;
+    }
+
+    .img-over-text h2 {
+        font-size: 27px;
+        margin-bottom: 18px;
+        line-height: 35px;
+    }
+
+    .subscribe-left h4 {
+        float: left;
+        width: 75%;
+        font-size: 18px;
+        color: #19222e;
+        margin: 0;
+        margin-top: 0;
+        line-height: 24px;
+        margin-left: 5%;
+    }
+
+    .subscribe-left img {
+        margin-right: 0;
+        float: left;
+        vertical-align: middle;
+        width: 20%;
+    }
+
+    .copy-inner ul li {
+        padding-right: 15px;
+    }
+
+    .copy-inner ul li a {
+        font-size: 11px;
+    }
+
+    .copy-inner p {
+        font-size: 11px;
+    }
+
+    .pay img {
+        width: 100%;
+    }
+
+    .our-support-btn {
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+
+    .add-plumber .col-lg-1 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .add-plumber .col-lg-8 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .hire-plumber-btn {
+        padding: 15px 18px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .add-plumber .col-lg-3 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    #plumber-join-now .plumber-join-now-inner {
+        padding: 20px;
+    }
+
+    .join-now-btn {
+        font-size: 18px;
+        padding: 10px 25px;
+        width: auto;
+    }
+
+    .user-img {
+        width: 15%;
+        float: left;
+    }
+
+    .user-review {
+        width: 85%;
+        float: left;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-bottom: 15px;
+    }
+
+    #navarea .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 7px;
+        background: #ffffff82;
+    }
+
+    #banner-area {
+        padding: 80px 0;
+    }
+
+    .plumberright .sec1 .sec1innwe .imgarea {
+        float: left;
+        width: 13%;
+    }
+
+    .plumberright .sec1 .textarea {
+        width: 87%;
+        float: left;
+    }
+
+    .plumberright .sec1 .textarea span i {
+        color: #3bf4bf;
+        margin-right: 6px;
+        width: 2%;
+        float: left;
+    }
+
+    .plumberright .sec1 .textarea strong {
+        width: 97%;
+        float: left;
+        font-weight: 400;
+    }
+
+    .plumberright {
+        margin-top: 10px;
+    }
+
+    #product-details .pro-content-inner1 h4 {
+        font-size: 17px;
+    }
+
+    #product-details .pr95 {
+        padding-right: 30px;
+    }
+
+    #product-details .pro-btn {
+        margin-bottom: 30px;
+    }
+
+    #product-details .pro-wish-btn {
+        margin-top: 26px;
+    }
+
+    #product-details .item-details li i {
+        margin-right: 13px;
+    }
+
+    /** product-list start**/
+    #product-list .new-pro-info h5,
+    #product-list .product-list-rightinner .product-display .product-content-box h5,
+    #product-list .product-box-listview h5,
+    #product-list .related-pro-sec .item-text h3 {
+        font-size: 9px;
+        line-height: 10px;
+        padding-bottom: 6px;
+    }
+
+    #product-list .new-pro-info p,
+    #product-list .product-list-rightinner .product-display .product-content-box p,
+    #product-list .product-box-listview p,
+    #product-list .related-pro-sec .item-text p {
+        font-size: 9px;
+        line-height: 14px;
+        padding-bottom: 6px;
+    }
+
+    #product-list .new-pro-info span,
+    #product-list .product-list-rightinner .product-display .product-content-box span,
+    #product-list .product-box-listview span,
+    #product-list .related-pro-sec .item-text span {
+        padding-bottom: 6px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    #product-list .new-pro-info a,
+    #product-list .product-list-rightinner .product-display .product-content-box a,
+    #product-list .product-box-listview a,
+    #product-list .item-text a {
+        font-size: 11px;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        line-height: 12px;
+    }
+
+    #product-list .new-pro-info .fa-heart,
+    #product-list .product-list-rightinner .product-display .product-content-box .fa-heart,
+    #product-list .product-box-listview a .fa-heart,
+    #product-list .item-text a .fa-heart,
+    #product-list .product-content-box-listview a .fa-heart {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    #product-list .product-list-rightinner h3 {
+        font-size: 16px;
+        line-height: 17px;
+
+        padding-bottom: 17px;
+
+    }
+
+    #product-list .product-list-rightinner .sort-by span {
+        padding-right: 5px;
+    }
+
+    #product-list .product-view {
+        margin-left: 32px;
+    }
+
+    #product-list .product-view a {
+        margin-right: 6px;
+    }
+
+    #product-list .related-pro-sec h2 {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    #product-list .bathroom-propanel .panel-heading h4,
+    #product-list .brand-panel .panel-heading h4,
+    #product-list .discount-panel h4,
+    #product-list .customer-review h4,
+    #product-list .price-range h4 {
+        font-size: 10px;
+        line-height: 11px;
+
+    }
+
+    #product-list .bathroom-propanel .panel-body ul,
+    #product-list .brand-panel .panel-body ul,
+    #product-list .discount-panel .panel-body ul {
+        padding: 5px 0 20px;
+    }
+
+    #product-list .bathroom-propanel .panel-body ul li,
+    #product-list .brand-panel .panel-body ul li,
+    #product-list .discount-panel .panel-body ul li {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    #product-list .bathroom-propanel .panel-body ul li a,
+    #product-list .brand-panel .panel-body ul li a,
+    #product-list .discount-panel .panel-body ul li a {
+        font-size: 10px;
+        line-height: 11px;
+
+    }
+
+    #product-list .bathroom-propanel .panel-heading h4 a img,
+    #product-list .brand-panel .panel-heading h4 a img,
+    #product-list .discount-panel h4 a img {
+        width: 8%;
+        margin-top: 2px;
+    }
+
+    #product-list .customer-review .RangeSlider_Point {
+        font-size: 8px;
+        line-height: 17px;
+
+    }
+
+    #product-list .price-range .range-slider {
+        margin-top: -9px;
+    }
+
+    #product-list .price-range .from,
+    #product-list .price-range .to {
+        top: 29px;
+        width: 12px;
+        height: 12px;
+
+    }
+
+    #product-list .supplier-ad h4 {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    #product-list .supplier-ad .supplier-btn {
+        width: auto;
+        padding: 10px 25px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /** product-list end**/
+
+    .cart-coupon-btn .cart-btn span {
+        font-size: 13px;
+    }
+
+    #supplier-pagenav ul li a {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .addvendor-area .drag-text h3 {
+        font-size: 11px;
+    }
+
+    #company-details .upload-pic-right-inner-3 .slick-list .slick-slide {
+        margin-left: 6px;
+        margin-right: 7px;
+    }
+
+    #company-details .upload-pic-right-inner-3 .slick-slider {
+        margin: 0 4px;
+    }
+
+    .bank-ph-select-area {
+        width: 66%;
+    }
+
+
+
+
+
+
+
+}
+
+@media(min-width:992px) and (max-width:1024px) {
+    .infoarea li:before {
+        width: 62%;
+        left: 69%;
+    }
+
+    .banner-caption h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .banner-caption p {
+        font-size: 17px;
+        margin-bottom: 18px;
+        line-height: 24px;
+    }
+
+    .container-fluid {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .categorie-search .form-group select {
+        width: 40%;
+    }
+
+    .categorie-search {
+        width: 100%;
+    }
+
+    .categorie-search .input-btn-area {
+        width: 60%;
+    }
+
+    .categorie-search .input-btn-area input {
+        width: 100%;
+    }
+
+    .header-middle-icon ul li img {
+        padding-right: 19px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .userdrop span {
+        right: 7px;
+    }
+
+    .cartitem span {
+        right: 7px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 18px;
+    }
+
+    .allcls i {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+
+    #banner-area {
+        padding: 50px 0;
+    }
+
+    .service-near-you-inner ul li a {
+        padding: 5px 15px;
+        line-height: 26px;
+    }
+
+    #plumbing-banner {
+        padding: 50px 0;
+    }
+
+    .hire-plumber-btn {
+        padding: 0 20px 0 20px;
+        line-height: 43px;
+    }
+
+    .infoarea li:before {
+        width: 62%;
+        left: 69%;
+    }
+
+    .banner-caption h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .banner-caption p {
+        font-size: 17px;
+        margin-bottom: 18px;
+        line-height: 24px;
+    }
+
+    .container-fluid {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .categorie-search .form-group select {
+        width: 40%;
+    }
+
+    .categorie-search {
+        width: 100%;
+    }
+
+    .categorie-search .input-btn-area {
+        width: 60%;
+    }
+
+    .categorie-search .input-btn-area input {
+        width: 100%;
+    }
+
+    .header-middle-icon ul li img {
+        padding-right: 15px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 18px;
+    }
+
+    .allcls i {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+
+    #banner-area {
+        padding: 50px 0;
+    }
+
+    .service-near-you-inner ul li a {
+        padding: 5px 15px;
+        line-height: 26px;
+    }
+
+    #plumbing-banner {
+        padding: 50px 0;
+    }
+
+    .hire-plumber-btn {
+        padding: 0 20px 0 20px;
+        line-height: 43px;
+    }
+
+    /** product-list start**/
+    #product-list .new-pro-info h5,
+    #product-list .product-list-rightinner .product-display .product-content-box h5,
+    #product-list .product-box-listview h5,
+    #product-list .related-pro-sec .item-text h3 {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    #product-list .product-view {
+        float: left;
+        width: 100%;
+        margin-left: 62px;
+    }
+
+    .inputarea {
+        width: 167px;
+    }
+
+    .bank-ph-select-area {
+        width: 245px;
+    }
+}
+
+/** product-list end**/
+
+
+@media(max-width:767px) {
+    .atif-inner .media {
+        height: auto;
+        display: block;
+        padding: 28px;
+        margin-bottom: 24px;
+    }
+
+
+    .atif-inner .media-body {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .atif-inner .media img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .atif-inner .mb-0 {
+        margin-bottom: 23px !important;
+    }
+
+    .atif-btn {
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .atif-inner .media-body h4 {
+        font-size: 27px;
+
+        padding-bottom: 15px;
+    }
+
+    .atif-right-content h3 {
+        font-size: 30px;
+
+    }
+
+    .atif-right-content h6 {
+        font-size: 16px;
+
+    }
+
+    .plum-pro .user-review h4 {
+        float: left;
+        width: 100%;
+    }
+
+    .plum-pro .md-switch {
+        margin-bottom: 15px;
+        float: left;
+    }
+
+    .shipping-form form .form-check label {
+
+        font-size: 14px !important;
+    }
+
+    #company-details .upload-pic-right-inner-1 .upload-pic-img img {
+        height: auto;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    #company-details .upload-right-inner1-content h5 {
+        padding-top: 20px;
+    }
+
+    .addvendor-area .drag-text h3 {
+        font-size: 11px;
+    }
+
+    #company-details .upload-pic-inner h5 {
+        font-size: 11px;
+    }
+
+    #company-details .upload-pic-inner h5 span {
+        width: 93%;
+    }
+
+    .login-social li a {
+
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .plum-profile {
+        margin-bottom: 30px !important;
+    }
+
+    #company-details .upload-pic-right-inner-3 .slick-list .slick-slide {
+        margin-left: 24px;
+        margin-right: 11px;
+
+    }
+
+    #company-details .upload-pic-right-inner-3 .slick-slider {
+        margin: 0 -5px;
+    }
+
+    .categorie-search {
+        float: none;
+    }
+
+
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .atif-inner .media-body h4 {
+        font-size: 23px;
+        line-height: 30px;
+
+        padding-bottom: 12px;
+    }
+
+    .atif-inner .media-body a i {
+        color: #1df2b5;
+        margin-right: 4px;
+        width: 5%;
+        float: left;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .atif-inner .media-body a span {
+        float: left;
+        width: 92%;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 13px;
+    }
+
+    .atif-btn {
+        height: auto;
+        padding: 16px 19px 15px 19px;
+        font-size: 13px;
+        line-height: 16px;
+
+
+    }
+
+    .atif-inner .media-body {
+        padding-left: 15px;
+    }
+
+    .atif-inner-right {
+
+        padding: 15px 7px;
+
+
+
+    }
+
+    .atif-right-img {
+        float: left;
+        width: 36%;
+    }
+
+    .atif-right-content {
+        float: left;
+        width: 64%;
+
+    }
+
+    .atif-right-content h3 {
+        font-size: 24px;
+        line-height: 27px;
+
+    }
+
+    .atif-right-content h6 {
+        font-size: 11px;
+        line-height: 17px;
+
+    }
+
+    #company-details .upload-right-inner1-content h5 {
+        margin-left: 20px;
+    }
+
+    .addvendor-area .drag-text h3 {
+        font-size: 11px;
+    }
+
+    #company-details .upload-right-inner1-content h5 {
+        padding-top: 24px;
+        margin-left: 0;
+    }
+
+    #company-details .upload-pic-right-inner-1 .upload-pic-content {
+        width: 100%;
+    }
+
+    #company-details .upload-pic-right-inner-1 .upload-pic-content {
+        padding-left: 0;
+    }
+
+}
+
+}
+
+

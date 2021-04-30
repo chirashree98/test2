@@ -1,0 +1,133 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+class Web_master extends MX_Controller {
+
+    public function __construct() {
+        parent::__construct();
+        $this->load->model('web_master_model');
+    }
+
+    public function index() {
+        if($this->method_chk($_SERVER['REQUEST_METHOD'],'POST')){
+            $this->load->library('form_validation');
+            $this->form_validation->set_rules('name', 'Name', 'trim|required',array('required'=>'You have not provided %s.'));
+            $this->form_validation->set_rules('std_code', 'STD code', 'trim|required',array('required'=>'You have not provided %s.'));
+            $this->form_validation->set_rules('mobile_no', 'Mobile No.', 'trim|required|is_unique[user_detail.mobile_no]',array('required'=>'You have not provided %s.','is_unique'=>'This %s already exists.'));
+            $this->form_validation->set_rules('email', 'EmailID', 'trim|required|valid_email|is_unique[user_detail.email]',array('required'=>'You have not provided %s.','is_unique'=>'This %s already exists.'));
+            $this->form_validation->set_rules('password', 'Password', 'trim|required',array('required'=>'You have not provided %s.'));
+            if($this->form_validation->run() == FALSE){
+                $error = validation_errors();
+                $data = array();
+                $data['success'] = false;
+                $data['message'] = 'Validation Error!';
+                $data['data'] = $error;
+                echo json_encode($data);
+            }else{
+                $insert_data = array();
+                $insert_data = $this->input->post();
+                $insert_data['password'] = base64_encode($insert_data['password']);
+                $insert_data['role_id'] = 2;
+                $insert_data['reg_by'] = 1;
+                $insert_data['reg_using'] = 0;
+                $insert_data['created_date'] = date('Y-m-d H:i:s');
+                $res = $this->web_master_model->dynamic_insert('user_detail',$insert_data);
+                if($res > 0){
+                    $data = array();
+                    $data['success'] = true;
+                    $data['message'] = 'user registration successful!';
+                    $data['data'] = array('last_ins_id'=>$res,'email'=>$insert_data['email']);
+                    echo json_encode($data);
+                }else{
+                    $data = array();
+                    $data['success'] = false;
+                    $data['message'] = 'Server error!';
+                    $data['data'] = '';
+                    echo json_encode($data);
+                }
+            }
+        }else{
+            $data = array();
+            $data['success'] = false;
+            $data['message'] = 'Invalid request!';
+            $data['data'] = '';
+            echo json_encode($data);
+        }
+    }
+    public function login(){
+        if($this->method_chk($_SERVER['REQUEST_METHOD'],'POST')){
+            $this->load->library('form_validation');
+            $this->form_validation->set_rules('username', 'Username or Mobile No.', 'trim|required',array('required'=>'You have not provided %s.'));
+            $this->form_validation->set_rules('password', 'Password', 'trim|required',array('required'=>'You have not provided %s.'));
+            if($this->form_validation->run() == FALSE){
+                $error = validation_errors();
+                $data = array();
+                $data['success'] = false;
+                $data['message'] = 'Validation Error!';
+                $data['data'] = $error;
+                echo json_encode($data);
+            }else{
+                $post_data = $this->input->post();
+                $login_data = $this->web_master_model->app_login($post_data);
+                if(count($login_data) > 0){
+                    $auth_arr = array();
+                    $auth_arr['user_id'] = $login_data[0]['id'];
+                    $auth_arr['auth_key'] = 'benasmartkey'.time().rand(1111,9999).'key'.$login_data[0]['id'];
+                    $auth_arr['login_time'] = date('Y-m-d H:i:s');
+                    $res = $this->web_master_model->dynamic_insert('user_login_record',$auth_arr);
+                    if($res > 0){
+                        $log_ret_data = array();
+                        $log_ret_data['user_id']    = $auth_arr['user_id'];
+                        $log_ret_data['auth_key']   = $auth_arr['auth_key'];
+                        $log_ret_data['user_email'] = $login_data[0]['email'];
+                        $log_ret_data['user_name']  = $login_data[0]['name'];
+                        $data = array();
+                        $data['success'] = true;
+                        $data['message'] = 'user login successful!';
+                        $data['data'] = $log_ret_data;
+                        echo json_encode($data);
+                    }else{
+                        $data = array();
+                        $data['success'] = false;
+                        $data['message'] = 'Server error!';
+                        $data['data'] = '';
+                        echo json_encode($data);
+                    }
+                }else{
+                    $data = array();
+                    $data['success'] = false;
+                    $data['message'] = 'Username or password invalid!';
+                    $data['data'] = '';
+                    echo json_encode($data);
+                }
+            }
+        }else{
+            $data = array();
+            $data['success'] = false;
+            $data['message'] = 'Invalid request!';
+            $data['data'] = '';
+            echo json_encode($data);
+        }
+    }
+    public function logout(){
+        $this->method_chk($_SERVER['REQUEST_METHOD'],'GET');
+        $this->session->unset_userdata('admin_id');
+        $this->session->unset_userdata('admin_role_id');
+        $this->session->set_flashdata('errmsg','Logout successfully done!');
+        redirect('');die;
+    }
+    ///////////////////////  Private Function ///////////////////
+    private function method_chk($server_req = '',$permisssion = ''){
+        if($server_req == $permisssion){
+            return 1;
+        }else{
+            return 0;
+        }
+    }
+    private function login_chk(){
+        if($this->session->userdata('admin_id')){
+            return 1;
+        }else{
+            return 0;
+        }
+    }
+}

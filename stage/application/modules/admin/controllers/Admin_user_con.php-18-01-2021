@@ -1,0 +1,90 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Admin_user_con extends MX_Controller {
+
+    public function __construct() {
+        parent::__construct();
+        $this->load->model('admin_master_model');
+    }
+
+    public function index() {
+        $this->method_chk($_SERVER['REQUEST_METHOD'],'GET');
+        $this->login_chk();
+        $data['title'] = 'User List';
+        
+        $select = array('id','name');
+        $con = array();
+        $data['role_list'] = $this->admin_master_model->dynamic_get($select,'user_role_master',$con);
+        
+        $select = array('*');
+        $con = array();
+        $data['user_list'] = $this->admin_master_model->dynamic_get($select,'user_detail',$con);
+        //echo '<pre>'; print_r($data['user_list']);die;
+        $this->load->view('includes/pre-header');
+        $this->load->view('includes/sidebar');
+        $this->load->view('includes/header');
+        $this->load->view('list/user-list',$data);
+        $this->load->view('includes/footer');
+    }
+    public function add_new_user(){
+        $this->method_chk($_SERVER['REQUEST_METHOD'],'GET');
+        $this->login_chk();
+        $data['title'] = 'Add new user';
+        $select = array('id','name');
+        $con = array();
+        $data['role_list'] = $this->admin_master_model->dynamic_get($select,'user_role_master',$con);
+        $this->load->view('includes/pre-header');
+        $this->load->view('includes/sidebar');
+        $this->load->view('includes/header');
+        $this->load->view('form/add-new-user',$data);
+        $this->load->view('includes/footer');
+    }
+    public function add_user_success(){
+        $this->method_chk($_SERVER['REQUEST_METHOD'],'POST');
+        $this->load->library('form_validation');
+        $this->form_validation->set_rules('role_id', 'Role Name', 'trim|required');
+        $this->form_validation->set_rules('name', 'Name', 'trim|required');
+        $this->form_validation->set_rules('email', 'Email', 'trim|required');
+        $this->form_validation->set_rules('password', 'Password', 'trim|required');
+        $this->form_validation->set_rules('mobile_no', 'Mobile No.', 'trim|required');
+        if($this->form_validation->run() == FALSE){
+            $error = validation_errors();
+            $this->session->set_flashdata('errmsg',$error);
+            redirect('add-new-user');die;
+        }else{ 
+            $data = $this->input->post();
+            $data['created_date'] = date('Y-m-d H:i:s');
+            $data['created_by'] = $this->session->userdata('admin_id');
+            $data['password'] = md5($data['password']);
+            unset($data['frm_sub']);
+            $res = $this->admin_master_model->dynamic_insert('user_detail',$data);
+            if($res > 0){
+                $this->session->set_flashdata('errmsg','User successfully inserted!');
+                redirect('user-list');die;
+            }else{
+                $this->session->set_flashdata('errmsg','Server error!');
+                redirect('add-new-user');die;
+            }
+        }
+    }
+
+    ///////////////////////  Private Function ///////////////////
+    private function method_chk($server_req = '',$permisssion = ''){
+        if($server_req == $permisssion){
+            return 1;
+        }else{
+            $this->session->set_flashdata('errmsg','Invalid request!');
+            redirect('');die;
+        }
+    }
+    private function login_chk(){
+        if($this->session->userdata('admin_id')){
+            return 1;
+        }else{
+            $this->session->set_flashdata('errmsg','Invalid request!');
+            redirect('');die;
+        }
+    }
+}
